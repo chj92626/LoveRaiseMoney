@@ -1,0 +1,6 @@
+
+.bgc{
+	background-color:#FFFFFF;
+	padding:30rpx;
+}
+

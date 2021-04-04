@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "设置",
+  "usingComponents": {
+    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item",
+    "u-badge": "/uview-ui/components/u-badge/u-badge",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}
