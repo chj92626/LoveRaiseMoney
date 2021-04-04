@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "账户与安全",
+  "usingComponents": {
+    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item",
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-select": "/uview-ui/components/u-select/u-select",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-input": "/uview-ui/components/u-input/u-input"
+  }
+}

@@ -1,0 +1,142 @@
+{	"easycom": {
+		// 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+		// 下载安装方式
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "爱心筹"
+			}
+		}
+	    ,{
+            "path" : "pages/lovejz/lovejz",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/choukuan/choukuan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发起筹款",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/paihang/paihang",
+            "style" :  
+            {
+                "enablePullDownRefresh": false,
+				"navigationBarTitleText": "爱心筹捐赠榜"
+            }
+            
+        }, {
+			"path": "pages/shezhi/accounts",
+			"style": {
+				"navigationBarTitleText": "账户与安全"
+			}
+		}, {
+			"path": "pages/shezhi/shezhi",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}, {
+			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪",
+				"navigationBarBackgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/myList/EnterpriseCertification",
+			"style": {
+				"navigationBarTitleText": "认证"
+			}
+		}, {
+			"path": "pages/myList/historyList",
+			"style": {
+				"navigationBarTitleText": "捐赠历史"
+			}
+		}, {
+			"path": "pages/myList/lovePro",
+			"style": {
+				"navigationBarTitleText": "爱心职位"
+			}
+		}, {
+			"path": "pages/myList/commonProblem",
+			"style": {
+				"navigationBarTitleText": "常见问题"
+			}
+		}, {
+			"path": "pages/paihanglist/detail",
+			"style": {
+				"navigationBarTitleText": "详情页"
+			}
+		}
+		
+		 
+		
+    ],
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#D81E06",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/tabbar/sy.png",
+				"selectedIconPath": "/static/tabbar/syl.png",
+				"text": "首页"
+			},{
+				"pagePath": "pages/lovejz/lovejz",
+				"iconPath": "static/tabbar/love.png",
+				"selectedIconPath": "static/tabbar/lovel.png",
+				"text": "爱心捐助"
+			},{
+				"pagePath": "pages/choukuan/choukuan",
+				"iconPath": "static/tabbar/choukuan.png",
+				"selectedIconPath": "static/tabbar/choukuanl.png",
+				"text": "发起筹款"
+			},{
+				"pagePath": "pages/paihang/paihang",
+				"iconPath": "static/tabbar/gj.png",
+				"selectedIconPath": "static/tabbar/gjl.png",
+				"text": "捐赠榜"
+			},{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/myl.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "爱心筹",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	}
+}
