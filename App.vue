@@ -27,4 +27,8 @@
 page{
 		background-color:#f5f5f5;
 	}
+.u-progress{
+	display: block!important;
+	margin-top: 8rpx;
+}
 </style>

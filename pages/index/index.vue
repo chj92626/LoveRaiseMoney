@@ -34,7 +34,7 @@
 							<div class="bottom bs-bb p20">
 								<view class="per p-20 flex ali-C">
 									<image src="../../static/index/icon1.png" mode="aspectFit"></image>
-									<view class="name flex1 bs-bb p20">13298388830</view>
+									<view class="name flex1 bs-bb p20">张大仙</view>
 									<view class="time">2019-02-08</view>
 								</view>
 								<div class="num flex justSa w100 bs-bb f28 ta-c">
